@@ -293,7 +293,7 @@ header {
 .titnsuc{
     color: white;
     font-size: 1.5em;
-    margin-left: 5%;
+    text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -301,14 +301,14 @@ header {
 
 .listsuc{
     color: whitesmoke;
-    margin-left: 5%;
+    margin-left: 20px;
 
 }
 
 .mapsuc{
     display:flex;
-    flex-direction:row;
-    margin-left:3%;
+    flex-direction:column;
+    margin-left: 10px;
     
 }
 @media(max-width:600px){
@@ -379,11 +379,11 @@ button {
     font-size: 20px;
 }
 
-/*pagina de contacto
+/*pagina de contacto*/
 .mb-3{
     display:flex;
     flex-direction: column;
-    /*width: 700px;
+    /*width: 700px;*/
     background-color: rgb(255, 17, 0);
     background:linear-gradient(to top,rgb(97, 2, 2), rgb(61, 31, 31));
     padding: 30px;
@@ -391,4 +391,5 @@ button {
     margin-top: 100px;
     border-radius: 8px;
     color: white;
-}*/
+}
+
