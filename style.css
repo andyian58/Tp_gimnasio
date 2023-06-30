@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    /* background-color: black; */
+    /* background: linear-gradient(to top, rgb(7, 5, 5), rgb(224, 148, 5))fixed;  */
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(143, 4, 4))fixed;
+    min-width: 300px;
+}
+
+/* degrdado sin efecto mosaico
+se le agrega height 100% al body y al html
+1-  body{
+    height: 100%
+}
+
+    html{
+        height: 100%
+    }
+
+    Se le agrega fixed al final de la sentencia.
+2- body{background: linear-gradient(to top, color, color) fixed;
+}
+*/
+
+/* navegador */
+
+.navppal {
+    padding: 10px;
+    /* background-color : black; */
+    display: flex;
+    gap: 20px;
+    /* justify-content:space-around; */
+    /* background: linear-gradient(to top, rgb(0, 0, 0), rgb(78, 77, 77)); */
+
+}
+
+.headnav {
+    /* background-color: rgb(70, 70, 70); */
+    display: inline-block;
+    color: wheat;
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-decoration: none;
+
+}
+
+@media (max-width: 600px) {
+    .navppal {
+        flex-direction: column;
+        min-width: 400px;
+    }
+
+    .headnav {
+        padding: 4px;
+    }
+}
+
+.navppal :hover {
+    background-color: lightgrey;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 1s;
+}
+
+/* encabezado */
+
+header {
+    background-color: black;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(78, 77, 77));
+    width: 100%;
+    color: white;
+    text-align: center;
+
+}
+
+/*footer*/
+
+.footer {
+    color: white;
+    text-align: center;
+}
+
+
+
+/* contenedor main index*/
+
+.img1 {
+    width: 800px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+
+/* Seccion Antes de empezar leer recomendaciones efectos visuales*/
+
+.conocimientos {
+    padding: 20px;
+    text-decoration: none;
+}
+
+.divimg1 {
+    width: 100%;
+    /*background-color: rgb(97, 4, 4);*/
+    color: rgb(90, 87, 87);
+    padding: 2px;
+    font-size: 1.3em;
+
+}
+
+
+.divimg1:hover {
+    background-color: rgb(155, 6, 6);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    transition: 1s;
+}
+
+.plan-ent {
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+
+}
+
+/* imagenes index */
+
+.titplan {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+@media(max-width:600px) {
+    .titplan {
+        flex-direction: column;
+        min-width: 300px;
+    }
+}
+
+
+
+.img {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+
+
+.titplanprinc,
+.titplanintermed,
+.titplanavanz {
+    color: white;
+}
+
+
+/* pagina about */
+
+.main-about {
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center;
+    margin-top: 120px;
+    text-align: center;
+    font-size: 1.3em;*/
+}
+
+@media(max-width:600px) {
+    .main-about {
+        flex-direction: column;
+        min-width: 300px;
+    }
+}
+
+
+.h3about {
+    margin-top: 70px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: white;
+    font-size: 1.7rem;
+}
+
+.img-about {
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-right: 10px;
+}
+
+.img-about {
+    opacity: 0.74;
+    border-radius: 10px;
+}
+
+.pabout {
+    color: white;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+/*Pagina conocimientos basicos*/
+
+.main-conoc{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-witdth:600px){
+    .main-conoc{
+        min-width: 300px;
+        flex-direction: column;
+    }
+
+}
+
+.h3conocimientos{
+    color: white;
+    text-align: center;
+    font-size:1.7em;
+    margin-bottom: 80px; ;
+}
+
+
+.h3conocimientos1{
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.imgconoc1,.imgconoc2{
+    width:300px ;
+    height:200px;
+
+}
+
+.pconocimientos1{
+    color: white;
+    font-size: 1.3em;
+    margin-right: 30px;
+    text-align: left;
+
+}
+
+.imgconoc1{
+    float: left;
+    margin-right: 10px;
+}
+
+.h3conocimientos2{
+    color: white;
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+
+    
+}
+
+.imgconoc2{
+    float: right;
+    margin-right: 30px;
+}
+
+.pconocimientos2{
+    color: white;
+   font-size: 1.3em;
+    text-align: left;
+}
+
+.consejos{
+    color: white;
+}
+
+/*pagina sucursales*/
+
+.titnsuc{
+    color: white;
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.listsuc{
+    color: whitesmoke;
+    margin-left: 5%;
+
+}
+
+.mapsuc{
+    display:flex;
+    flex-direction:row;
+    margin-left:3%;
+    
+}
+@media(max-width:600px){
+    .mapsuc{
+       /*min-width: 300px;*/
+       flex-direction: column;
+    }
+}
+
+/*pagina formulario*/
+.registro{
+    display:flex;
+    flex-direction: column;
+    /*width: 700px;*/
+    background-color: rgb(255, 17, 0);
+    background:linear-gradient(to top,rgb(97, 2, 2), rgb(61, 31, 31));
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 8px;
+    color: white;
+
+}
+
+@media(max-width:600px){
+    .registro{
+        min-width: 300px;
+        flex-direction: column;
+    }
+}
+.h4registro{
+    font-size: 24px;
+    text-align: center;
+}
+
+.inputs{
+    width: 100%;
+    background-color: rgb(32, 32, 61);
+    background:linear-gradient(to top,rgb(36, 36, 241),rgb(12, 12, 12));
+    padding: 3px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-style: groove;
+    font-size: 18px;
+    color: white;
+}
+
+.gender{
+    width: 100%;
+    background-color: rgb(32, 32, 61);
+    padding: 3px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-style: groove;
+    font-size: 18px;
+    color: white;
+}
+
+/*boton submit-------------------------------------------------*/
+button {
+    width: 100%;
+    background-color: rgb(36, 36, 241);
+    background:linear-gradient(to top,rgb(36, 36, 241),rgb(12, 12, 12));
+    padding: 12px;
+    border: none;
+    color: white;
+    margin: 16px 0px;
+    font-size: 20px;
+}
+
+/*pagina de contacto
+.mb-3{
+    display:flex;
+    flex-direction: column;
+    /*width: 700px;
+    background-color: rgb(255, 17, 0);
+    background:linear-gradient(to top,rgb(97, 2, 2), rgb(61, 31, 31));
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 8px;
+    color: white;
+}*/

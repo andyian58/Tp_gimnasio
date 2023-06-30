@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ff75cb2f40.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="idheader">
+        
+        </div>
+
+        <h1 class="headh1">Gimnasio LIVE-FIT</h1>
+    </header>
+
+
+    <form class="registro" method="get">
+        <h4 class="h4registro">Formulario de registro</h4>
+        <input class="inputs" type="text" name="name" id="nombre" required placeholder="Nombre" >
+        <input class="inputs" type="text" name="lname" id="apellido" required placeholder="Apellido">
+        <input class="inputs" type="text" name="adress" id="direccion" required placeholder="Direccion">
+        <input class="inputs" type="tel" name="cp" id="codigo postal" required placeholder="Codigo postal">
+        <input class="inputs" type="tel" name="location" id="localidad" required placeholder="Localidad">
+        <input class="inputs" type="tel" name="telephone" id="telefono" required placeholder="Telefono">
+        <input class="inputs" type="email" name="mail" id="email" required placeholder="Email@">
+        <input class="inputs" placeholder="Fecha de Nacimiento" type="text" required onfocus="(this.type = 'date')" id="date">
+        <label for="rbutton">Selecciona tu sexo</label><br>
+        <input type="radio" name="gender" id="sexo" value="masculino">Masculino
+        <input type="radio" name="gender" id="sexo" value="femenino">Femenino 
+        <label for="checkbox">Selecciona tus preferencias</label><br>
+        <input type="checkbox" name="Aerobico" id="preferencias">Aerobico <br>
+        <input type="checkbox" name="Anaerobico" id="preferencias">Anaerobico <br>
+        <input type="checkbox" name="levantamiento" id="preferencias">levantamiento y potencia <br>
+        <input type="checkbox" name="Fisicoculturismo" id="preferencias">Fisicoculturismo <br>
+        <input type="checkbox" name="Fitness" id="preferencias">Fitness <br>
+        <input type="checkbox" name="Ninguna" id="preferencias">No tengo preferencias <br>
+        <button type="submit">Aceptar</button>
+
+    </form>
+<div id="idfooter">
+
+</div>
+    <script src="index.js"></script>
+</body>
+
+</html>
